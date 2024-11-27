@@ -22,3 +22,11 @@ details[open] div {
     top: 0;
     width: 175px;
 }
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
