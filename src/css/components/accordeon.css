@@ -13,7 +13,7 @@ details {
 }
 
 details[open] {
- margin-right: 175px;
+ margin-right: 200px;
 }
 
 details[open] div {
@@ -30,3 +30,4 @@ details > summary {
 details > summary::-webkit-details-marker {
     display: none;
 }
+

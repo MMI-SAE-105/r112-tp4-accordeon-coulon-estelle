@@ -9,7 +9,26 @@
   <script type="module" src="/src/js/script.js"></script>
 </head>
 
+<style>
+  .content {
+      display: none;
+  }
+
+  input[type="radio"] {
+      display: none;
+  }
+
+  label {
+      cursor: pointer;
+  }
+
+  input[type="radio"]:checked + label + .content {
+      display: block;
+  }
+</style>
+
 <body>
+
   <h1>Test Accordéon</h1>
   <div class="accordeon">
     <details open>
